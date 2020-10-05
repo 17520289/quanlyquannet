@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body, htm{
+	height: 100vh;
+	font-family:  sans-serif;
+}
+.wrap-container{
+	display: flex;
+	min-height:  100%;
+	flex-wrap: wrap;
+}
+.container{
+	background: blue;
+	
+}
+ .top{
+	width: 100%;
+	 color: white;
+	 height: 10vh;
+	 background-color: #042331;
+	 display: flex;
+}
+.left{
+	
+	height: 90vh;
+	width: 16%;
+	background:#042331;
+}
+.right{
+	max-height: 90vh;
+	width: 84%;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+.center{
+	width:100%;
+	height: 82vh;
+	background-color: white;
+}
+.footer{
+	width: 100%;
+	height: 8vh;
+	background-color: antiquewhite;
+}
+.left ul a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 65px;
+	font-size: 18px;
+	color: white;
+	padding-left: 40px;
+	box-sizing: border-box;
+	border-top: 1px solid rgb(255,255,255,.1);
+	border-bottom: 1px solid black;
+	text-decoration: none;
+	transition: .4s;
+}
+ul li:hover a{
+	padding-left: 50px;
+}
+.left ul a i{
+	margin-right: 16px;
+}
+.top img{
+	margin-top: -5px;
+	margin-left: 25px;
+}
+.top h2{
+	color:white;
+	margin: 18px 30px;
+	width: 85%;
+}
+.logouser{
+	width: 13%;
+}
+.logouser p, .logouser i{
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.logouser i{
+	margin-right: 10px;
+	font-size: 20px;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color:#29F04A;
+  border-radius: 50%;
+  display: inline-block;
+	box-shadow: 0.5px 0.5px  #fff;
+}
+.status label{
+	margin-left: 10px;
+}
